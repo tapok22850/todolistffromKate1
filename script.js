@@ -8,7 +8,7 @@ let task = document.querySelector("#task");
 let saved = localStorage.getItem("tasks");
 let tasks;
 
-if (saved !== "") {
+if (saved !== null) {
     tasks = JSON.parse(saved);
 } else {
     tasks = [];
