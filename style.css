@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(173, 173, 223);
+}
+
+header {
+    color:azure;
+    background-color: rgb(110, 110, 192);
+    height: 100px;
+
+}
+header div h1{
+    margin-top: 0px;
+    font: italic small-caps bold 70px Arial, sans-serif;
+}
+main{
+    margin-top: 50px;
+    margin-left: 100px;
+    
+}
+main input{
+    font: italic small-caps bold 40px Arial, sans-serif;
+    background-color: rgb(210, 210, 240);
+    border: 2px solid rgb(140, 140, 200);
+    color: rgb(40, 40, 80);
+    border-radius: 15px;
+}
+.adTask{
+    font: italic small-caps bold 40px Arial, sans-serif;
+    background-color: rgb(210, 210, 240);
+    border: 2px solid rgb(140, 140, 200);
+    color: rgb(40, 40, 80);
+    height: 55px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.new{
+    background-color: rgb(210, 210, 240);
+    color: rgb(40, 40, 80);
+    display: flex;
+    justify-content: space-between;
+    margin-right: 400px;
+    padding: 5px;
+    height: 45px;
+    border: 2px solid rgb(140, 140, 200);
+    border-radius: 15px;
+    margin-top: 20px;
+    font: italic small-caps bold 40px Arial, sans-serif;
+}
+.close{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(180, 70, 100);
+    margin-right: 20px;
+}
+.close:hover {
+    color: rgb(133, 38, 63);
+}
+main h2{
+    font: italic small-caps bold 40px Arial, sans-serif;
+    color: rgb(40, 40, 80);
+}
+.completed{
+    background-color: rgb(210, 210, 240);
+    color: rgb(97, 97, 179);
+    display: flex;
+    justify-content: space-between;
+    margin-right: 400px;
+    padding: 5px;
+    height: 45px;
+    border: 2px solid rgb(140, 140, 200);
+    border-radius: 15px;
+    margin-top: 20px;
+    font: italic small-caps bold 40px Arial, sans-serif;
+    text-decoration: line-through;
+    text-decoration-color: rgb(0, 0, 0);
+}
